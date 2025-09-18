@@ -244,68 +244,12 @@
 //         printf("ODD\n");
 //     }
 //     int main(){
-//         sum();
-//     }
-
-//RETURN TYPE:
-
-// int sum(){
-//     int a=5;
-//     int b=10;
-//     int c=a+b;
-//     return c;
-// }
-// int main(){
-//     int data=sum();
-//     printf("%d",data);
-// }
-
-//ARRAY : 
-
-// int arr[7]={1,3,4,6,5,-5,1};
-// int k=7;
-// for(int i=0;i<7;i++){
-//     for(int j=0;j<7;j++){
-//         if(arr[i]+arr[j]==k){
-//             printf("%d %d",i,j);
-//             break;
+//         sum();for(int j=0;j<5;j++){
+//         cursum=cursum+maxsum;
+//         if(cursum>maxsum){
+//             maxsum=cursum;
 //         }
 //     }
 // }
+// printf("%d",maxsum);
 //  }
-// int arr[5]={1,2,3,2,1};
-// int check=1;
-// for(int i=0;i<5/2;i++){
-//     if(arr[i]!=arr[5-1-i]){
-//         check=0;
-//         break;
-//     }
-// }
-// if(check==1){
-//     printf("p");
-// }
-// else{
-//     printf("not");
-// }
-// }
-// int arr[5]={10,20,30,40,50};
-// int f=arr[0];
-// for(int i=0;i<5;i++){
-//       arr[i]=arr[i+1];
-// }
-// arr[4]=f;
-//  }
-
-int arr[5]={2,3,-4,-8,-1};
-int maxsum=0;
-for(int i=0;i<5;i++){
-    int cursum=0;
-    for(int j=0;j<5;j++){
-        cursum=cursum+maxsum;
-        if(cursum>maxsum){
-            maxsum=cursum;
-        }
-    }
-}
-printf("%d",maxsum);
- }
