@@ -1,0 +1,376 @@
+#include<stdio.h>
+//int main()
+//{
+//	int a=10;
+//	if(a<8){
+//		printf("hello");
+//	}
+//	else{
+//		printf("hii");
+//	}
+//}
+//int a=5;
+//int b=2;
+//float c=(float)a/b;
+//printf("%3f",c);
+//}
+//int a=5;
+//int b=3;
+//int c=2;
+//int z=(a++)+(--a)+(--c)+(c++)+(b++)+c+b;
+//printf("%d\n",z);
+//}
+//int i=10,j;
+//j=(i++) + (++i);
+//printf("%d\n",i,j);
+//}
+//int a=75;
+//int m=65;
+//if(m>70 && a>75){
+//	printf("A");
+//	}
+//	else (m>60 && a>65);
+//	{
+//	
+//	printf("B");
+//
+//}
+//} 
+//int a=4;
+//switch(a)
+//{
+//	case 1:
+//		printf("monday");
+//		break;
+//		case 2:
+//			printf("tuesday");
+//			break;
+//			case 3:
+//				printf("wednesday");
+//				break;
+//				case 4:
+//					printf("thursday");
+//					break;
+//					case 5:
+//						printf("friday");
+//						break;
+//						case 6:
+//							printf("saturday");
+//							break;
+//							dafault:
+//								printf("sunday");
+//								break;
+//							}
+//						}
+//int i;
+//printf("entre a num\n");
+//scanf("%d", &i);
+//if(i>10){
+//	printf("Hello");
+//	printf("Hii");
+//}
+//else
+//{
+//	printf("hii");
+//	printf("tata");
+//	}
+//}
+//int choice;
+//float a,b;
+//printf("1.sum\n, 2.substract\n 3.product\n 4.divide\n");
+//printf("entre your choice");
+//scanf("%d", &choice);
+//printf("entre two numbers :");
+//scanf("%f , %f" ,&a,&b);
+//switch(choice){
+//    case 1:
+//    	printf("sum=%.2f\n",a+b);
+//    	break;
+//    	case 2:
+//    		printf("substract=%.2f\n",a-b);
+//    		break;
+//    		case 3:
+//    			printf("product=%.2f\n",a*b);
+//    			break;
+//    			case 4:
+//    				printf("divide=%.2f\n",a/b);
+//    				break;
+//    	}
+//    }
+//char colour;
+//printf("entre traffic light colour (R,G,Y) :");
+//scanf("%c", &colour);
+//switch(colour){
+//	case 'R':
+//		printf("STOP\n");
+//		break;
+//		case 'G':
+//			printf("GO\n");
+//			break;
+//			case 'Y':
+//				printf("WAIT\n");
+//				break;
+//			default:
+//				printf("INVAILD COLOUR\n");
+//				break;
+//}
+//}
+//int num;
+//printf("entre a number :");
+//scanf("%d", &num);
+//switch(num %2){
+//	case 1:
+//		printf("EVEN\n");
+//		break;
+//		case 2:
+//			printf("ODD\n");
+//			break;
+//		}
+//	}
+//int choice;
+//float r,l,b,s;
+//printf("1.circle\n,2.rectangular\n,3.square\n");
+//printf("entre your choice :");
+//scanf("%d", &choice);
+//printf("entre the numbers");
+//scanf("%f,%f,%f,%f", &r,&l,&b,&s);
+//switch(choice)
+//{
+//	case 1:
+//		printf("area of a cirle=%.2f\n",3.14*r*r);
+//		break;
+//		case 2:
+//			printf("area of a rectangular=%.2f\n", l*b);
+//			break;
+//			case 3:
+//				printf("area of a square=%.2f\n", s*s);
+//				break;
+//				default:
+//					printf("invalid value");
+//					break;
+//				}
+//					}
+//int month;
+//printf("entre the name of month (0-12)");
+//scanf("%d", &month);
+//switch(month)
+//{
+//	case 1:
+//		printf("JANUARY");
+//		break;
+//		case 2:
+//			printf("FEBRUARY");
+//			break;
+//			case 3:
+//				printf("MARCH");
+//				break;
+//				case 4:
+//					printf("APRIL");
+//					break;
+//					case 5:
+//						printf("MAY");
+//						break;
+//						case 6:
+//							printf("JUNE");
+//							break;
+//							case 7:
+//								printf("JULY");
+//								break;
+//								case 8:
+//									printf("AUGUST");
+//									break;
+//									case 9:
+//										printf("SEPTEMBER");
+//										break;
+//										case 10:
+//											printf("OCTOBER");
+//											break;
+//											case 11:
+//												printf("NOVEMBER");
+//												break;
+//												case 12:
+//													printf("DECEMBER");
+//													break;
+//													default:
+//														printf("INVALID VALUE");
+//														break;
+//													}
+//												}
+//				char grade;
+//				printf("entre the grade(A,B,C,D,F)");
+//				scanf("%c", &grade);
+//				switch(grade)
+//				{
+//					case 'A':
+//						printf("EXCELLENT!\n");
+//						break;
+//						case 'B':
+//							printf("GOOD!\n");
+//							break;
+//							case 'C':
+//								printf("AVERAGE!\n");
+//								break;
+//								case 'D':
+//									printf("BELOW AVERAGE!\n");
+//									break;
+//									case 'F':
+//										printf("FAIL!\n");
+//										break;
+//										default:
+//											printf("INVALID VALUE");
+//											break;
+//										}
+//									}
+//char ch;
+//printf("entre a character");
+//scanf("%c", &ch);
+//switch(ch)	
+//{
+//	case 'a': case 'e': case 'i': case 'o': case 'u':
+//		case 'A': case 'E': case 'I': case 'O': case 'U':
+//			printf("vowels\n");
+//			break;
+//			default:
+//				printf("consonant\n");
+//				break;
+//		}
+//	}
+//int choice;
+//float inr;
+//printf("1.inr to usd\n 2.inr to eur\n 3.inr to yen\n");
+//printf("entre your choice");
+//scanf("%d", &choice);
+//printf("entre amount in inr :");
+//scanf("%f", &inr);
+//switch(choice)
+//{
+//	case 1:
+//		printf("inr to usd=%.2f\n", inr*0.012);
+//		break;
+//		case 2:
+//			printf("inr to eur=%.2f\n",inr*0.011);
+//			break;
+//			case 3:
+//				printf("inr to yen=%.2f\n", inr*1.73);
+//				break;
+//				default:
+//					printf("invalid choice");
+//					break;
+//				}
+//}
+//			for(int i=1;i<=10;i++){
+////				printf("\nHELLO!");
+//printf("%d\n", i*2);
+//			
+//		}
+//	}
+//int num=786;
+//int sum=0;
+//while(num>0){
+//	int lastdigit=num%10;
+//	sum=sum+lastdigit;
+//	num=num/10;
+//	printf("%d\n",sum);
+//}
+//}
+//		
+//int num=123;
+//int res=0;
+//while (num!=0){
+//	int lastdigit=num%10;
+//	res= res*10+ lastdigit;
+//	num=num/10;
+//}
+//}
+//int i,n,fact;
+//printf("entre the number");
+//scanf("%d", &n);
+//for(i=0;i<=n;i++)
+//{
+//	fact=fact*i;
+//}
+//printf("fact=%d",fact);
+//}
+//int n=6;
+//int first=0;
+//int sec=1;
+//int next;
+//for(int i=0;i<=n;i++)
+//{
+//	printf("%d",n);
+//	next=first+sec;
+//	first=sec;
+//	sec=next;
+//}
+//return 0;
+//}
+//int n=234;
+//int count=0;
+//if(n==0){
+//    count=1;
+//}
+//while (n>0)
+//{
+//    count++;
+//    n=n/10;
+//}
+//    printf("%d",count);
+//return 0;
+//}
+
+//int i;
+//printf("prime between 1 and 100\n");
+//for(i=2;i<=100;i++)
+//if(i%=2){
+//	for(int i=0;i>7;i++){
+//	for(int j=0;j<=i;j++){
+//		printf(" ");
+//	}
+//	for(int k=7;k<=i;k--){
+//		printf("*");
+//	}
+//	for(int p=7;p<=i;p--){
+//		printf("*");
+//
+//		}
+//		printf("\n");
+//	}
+//}
+//for(int i=0;i<4;i++){
+//	for(int j=4;j>i;j--){
+//		printf("*");
+//	}
+//	for(int k=3;k>i;k++){
+//		printf(" ");
+//	}
+//	for(int m=3;m>i;m++){
+//		printf(" ");
+//	}
+//	for(int n=4;n>i;n--){
+//		printf("*");
+//	}
+//	printf("\n");
+//}
+//}
+//int n=7;
+//for(int i=1;i<=n;i++){
+//	for(int j=1;j<=n;j++){
+//		if(i==1 || i==n || j==1 || j==n){
+//			printf("*");
+//		}
+//		else{
+//		printf(" ");
+//		}
+//		printf("\n");
+//	}
+//}
+//return 0;
+//
+//}
+//int arr[5]={10,20,30,40,50};
+//int f=arr[0];
+//for(int i=0;i<5;i++){
+//      arr[i]=arr[i+1];
+//}
+//arr[4]=f;
+// }
