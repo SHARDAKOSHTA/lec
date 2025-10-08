@@ -1,1 +1,1 @@
-int ln=strlen(str);
+int freq[256]={0};
